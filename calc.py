@@ -15,4 +15,5 @@ def divide(x,y):
     '''Divide Function'''
     if y == 0:
         raise ValueError("Cannot divide by zero")
+    #return x // y unit test  tidak menangkap hal ini namun akan jadi masalah jika 5//2 != 2.5
     return x / y
